@@ -2,7 +2,6 @@
 Problem Name: Hamiltonian and Lagrangian
 Problem link: https://www.hackerearth.com/practice/data-structures/arrays/1-d/practice-problems/algorithm/hamiltonian-and-lagrangian/
 */
-
 import java.util.*;
 class HamiltonianAndLagrangian {
     public static void main(String args[] ) throws Exception {
