@@ -13,7 +13,7 @@ class MicroAndArrayUpdate {
             for(int i=0;i<n;i++){ 
                 int ai = in.nextInt();
                 if(ai < min)
-                    min=ai;
+                    min = ai;
             }
             System.out.println(Math.max(k-min,0));       
         }
