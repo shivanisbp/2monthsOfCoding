@@ -15,10 +15,10 @@ int main(){
         cin>>A[i];
     }
 
-    long long int maxscore=0,skipped=0,count=0;
+    int maxscore=0,skipped=0;
     for(int i=0;i<N;++i){
         if(A[i]<=X){
-            count++;
+            maxscore++;
         }
         else if(skipped<1){
             skipped++;
@@ -27,7 +27,7 @@ int main(){
             break;
         }
     }
-    maxscore=count;
     cout<<maxscore;
     return 0;
 }
+
