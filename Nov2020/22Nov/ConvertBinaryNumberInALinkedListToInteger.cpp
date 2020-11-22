@@ -17,8 +17,7 @@ class Solution {
 public:
     int getDecimalValue(ListNode* head) {
         int decimal=0;
-         while(head)
-         {
+         while(head){
              decimal*= 2;
              if (head->val == 1){
                  decimal+=1;
