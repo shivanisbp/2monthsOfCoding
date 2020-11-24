@@ -16,9 +16,9 @@ Problem link: https://leetcode.com/problems/linked-list-components/
 class Solution {
 public:
     int numComponents(ListNode* head, vector<int>& G) {
-        int count=0,i=0;
+        int count=0;
         ListNode* curr=head;
-        curr=head;
+        
         set<int>s(G.begin(),G.end());
         
         while(curr!=nullptr){
