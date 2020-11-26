@@ -1,7 +1,7 @@
 # 6monthsOfCoding
 > We are starting this journey of coding from 12th November 2020 for the next 6 months. Hope we don't stop till that, and after that.
 
-##Rules:
+## Rules:
 1. You can't skip. It's just 6 months, can't be that hard. Exception: If you fall sick (which you don't usually so...).
 2. Add all the codes to this repository everyday, along with Question link.
 3. Try not to be demotivated, you are gonna have those days, but stay strong, *hardwork never goes in vain*.
