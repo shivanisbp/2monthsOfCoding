@@ -30,6 +30,8 @@ public class Solution {
         System.out.println(head.data);
     }
     
+    // Do not edit below
+    
     static class SinglyLinkedListNode {
         public int data;
         public SinglyLinkedListNode next;
