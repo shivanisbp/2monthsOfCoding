@@ -20,8 +20,8 @@ public:
         if(!root)
             return 0;
         
-        int val =0;
-        if(root->val >=low && root->val <=high)
+        int val = 0;
+        if(root->val >= low && root->val <= high)
             val = root->val;
         
         return val + rangeSumBST(root->left, low, high) + rangeSumBST(root->right, low, high);
