@@ -20,14 +20,11 @@ public:
         if(!root)
             return root;
         
-        TreeNode* temp1;
-        TreeNode* temp2;
+        TreeNode* l=invertTree(root->left);
+        TreeNode* r=invertTree(root->right);
         
-        temp1=invertTree(root->left);
-        temp2=invertTree(root->right);
-        
-        root->right=temp1;
-        root->left=temp2;
+        root->right=l;
+        root->left=r;
         
         return root;
     }
