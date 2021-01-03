@@ -1,6 +1,6 @@
 /*
 Problem name: Validate Binary Search Tree
-Problem link: https://leetcode.com/explore/featured/card/top-interview-questions-easy/94/trees/625
+Problem link: https://leetcode.com/problems/validate-binary-search-tree/
 */
 
 /**
