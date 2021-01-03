@@ -1,6 +1,6 @@
 /*
 Problem name: Convert Sorted Array to Binary Search Tree
-Problem link: https://leetcode.com/explore/featured/card/top-interview-questions-easy/94/trees/631
+Problem link: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
 */
 
 /**
