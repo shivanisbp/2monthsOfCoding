@@ -10,19 +10,18 @@ public:
             return k;
         
         k -= arr[0] - 1;
-        int d;
+        int d, i;
         
-        for(int i = 1; i < arr.size(); i++){
+        for(i = 1; i < arr.size(); i++){
             d = arr[i] - arr[i-1] - 1;
             
             if(d == 0)
                 continue;
-            else if(d == k)
-                return arr[i-1] + d;
-            else if(d > k)
+            else if(d >= k)
                 return arr[i-1] + k;
+            else
              k -= d;                
         }
-        return arr[n - 1] + k;
+        return arr[i - 1] + k;
     }
 };
