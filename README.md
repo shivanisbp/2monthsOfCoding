@@ -1,5 +1,5 @@
 # 2monthsOfCoding
-> We are starting this journey of coding from 12th November 2020 for the next 2 months. Hope we don't stop till that, and after that.
+> Starting coding from 12th November 2020 for the next 2 months. Hope we don't stop till that, and after that.
 
 ## Rules:
 1. You can't skip. It's just 2 months, can't be that hard. Exception: If you fall sick (which you don't usually so...).
